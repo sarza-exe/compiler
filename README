@@ -1,9 +1,0 @@
-lexer.l - analiza leksykalna kodu wejściowego
-
-codeGenerator.hh - służy do generowania kodu, tworzenia i naprawiania instrukcji skoku (backpatching) oraz generowania fragmentów kodu do mnożenia / dzielenia / generowania stałych.
-
-symbolTable.hh - służy do tworzenia i zarządzania informacjami o zmiennych, parametrach, iteratorach i procedurach.
-
-parser.y - przechodzi przez gramatykę i generuje kod maszyny wirtualnej. Sprawdza czy w kodzie nie ma błędów i je wypisuje.
-
-main.cc - otwiera/zamyka pliki i wywołuje parser.
